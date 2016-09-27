@@ -7,7 +7,7 @@ use_frameworks!
 
 target :GitHubUsersBrowser do
   pod 'Alamofire'
-  pod 'ImageLoader'
+  pod 'SDWebImage'
 end
 
 post_install do |installer|

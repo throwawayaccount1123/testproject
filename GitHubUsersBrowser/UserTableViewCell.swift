@@ -3,7 +3,7 @@
 //
 
 import UIKit
-import ImageLoader
+import SDWebImage
 
 class UserTableViewCell: UITableViewCell {
     
@@ -43,10 +43,7 @@ class UserTableViewCell: UITableViewCell {
         self.userNameLabel.text = user?.login
         self.profileURL = user?.profileURL
         if let avatarURL = user?.avatarURL {
-            self.userImageView.load(avatarURL,
-                                    placeholder: nil,
-                                    completionHandler: { (url, image, err, cache) in
-            })
+            self.userImageView.sd_setImage(with: avatarURL)
         }
     }
     
