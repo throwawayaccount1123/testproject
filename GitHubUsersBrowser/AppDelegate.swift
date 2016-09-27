@@ -1,8 +1,4 @@
 //
-//  AppDelegate.swift
-//  GitHubUsersBrowser
-//
-//  Created by Sergey Lem on 9/27/16.
 //  Copyright © 2016 Sergey Lem. All rights reserved.
 //
 

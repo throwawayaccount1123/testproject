@@ -88,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				BB8F5BDC1D9ABD4A00304D18 /* UsersFetcher.swift */,
-				BB8F5BD61D9AB96800304D18 /* Entity */,
 				BB8F5BD41D9AB5E300304D18 /* GitHubClient.swift */,
+				BB8F5BD61D9AB96800304D18 /* Entity */,
 			);
 			name = Model;
 			sourceTree = "<group>";
